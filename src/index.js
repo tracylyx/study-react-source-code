@@ -1,5 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+// step2 修改前
+// import React from 'react';
+// import ReactDOM from 'react-dom/client';
+// step2 修改后
+import * as React from 'react';
+import * as ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
