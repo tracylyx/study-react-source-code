@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import InputHookComp from "./components/InputHook";
+import createPortalDemo from './components/createPortalDemo';
+import UseEffectDemo from "./components/hooksDemo/UseEffectDemo";
 
 const originalView = (
 	<div className="App">
@@ -23,7 +25,9 @@ const originalView = (
 
 function App() {
   return (
-	<InputHookComp></InputHookComp>
+	// <InputHookComp></InputHookComp>
+	// createPortalDemo()
+  	<UseEffectDemo></UseEffectDemo>
   );
 }
 
