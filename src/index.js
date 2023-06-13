@@ -3,15 +3,20 @@
 // import ReactDOM from 'react-dom/client';
 // step2 修改后
 import * as React from 'react';
-import * as ReactDOM from 'react-dom/client';
+import * as ReactDOMClient from 'react-dom/client';
+import * as ReactDOM from 'react-dom/index';
 import './index.css';
 import App from './App';
+import createPortalDemo from './components/createPortalDemo';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOMClient.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+	  {
+          createPortalDemo()
+	  }
   </React.StrictMode>
 );
 
