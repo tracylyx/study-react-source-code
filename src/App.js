@@ -3,6 +3,8 @@ import './App.css';
 import InputHookComp from "./components/InputHook";
 import createPortalDemo from './components/createPortalDemo';
 import UseEffectDemo from "./components/hooksDemo/UseEffectDemo";
+import UseMemoDemo from "./components/hooksDemo/UseMemoDemo";
+import UseCallbackDemo from "./components/hooksDemo/useCallbackDemo";
 
 const originalView = (
 	<div className="App">
@@ -28,6 +30,8 @@ function App() {
 	// <InputHookComp></InputHookComp>
 	// createPortalDemo()
   	<UseEffectDemo></UseEffectDemo>
+	  // <UseMemoDemo></UseMemoDemo>
+	  // <UseCallbackDemo></UseCallbackDemo>
   );
 }
 
